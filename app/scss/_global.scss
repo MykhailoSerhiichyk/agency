@@ -68,4 +68,87 @@ body {
     text-align: center;
 }
 
+.default__form {
+    border: 8px solid #3a5896;
+    padding: 40px 50px;
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+
+    form {
+        width: 100%;
+
+        input[type="tel"] {
+            height: 55px;
+            width: 225px;
+            border: 1px solid #e8e8e8;
+            border-radius: 20px;
+            outline: none;
+            padding: 0 20px;
+            font-family: 'Gilroy', sans-serif;
+            margin-bottom: 15px;
+
+            &::placeholder {
+                text-align: center;
+                font-family: 'Gilroy', sans-serif;
+                font-weight: 300;
+                font-size: 13px;
+                color: #999999;
+            }
+        }
+
+        button {
+            border: none;
+            outline: none;
+            width: 225px;
+            height: 55px;
+            font-size: 14px;
+            cursor: pointer;
+            margin-bottom: 25px;
+        }
+
+        label {
+            font-size: 11px;
+            line-height: 22px;
+            color: #999999;
+            font-family: 'Gilroy', sans-serif;
+            font-weight: 300;
+            position: relative;
+            padding-left: 19px;
+
+            a {
+                color: #999999;
+                text-decoration: underline;
+            }
+
+            input[type="checkbox"] {
+                cursor: pointer;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    &-title {
+        font-weight: 700;
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    &-subtitle {
+        font-style: italic;
+        margin-bottom: 25px;
+    }
+
+    &-subtext {
+        font-size: 13px;
+        font-family: 'Gilroy', sans-serif;
+        font-weight: 300;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+}
+
 
