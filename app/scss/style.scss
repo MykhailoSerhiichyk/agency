@@ -397,8 +397,74 @@
     }
 }
 
-
-
 // end cost
+
+// start advantages
+
+.advantages {
+    background-color: #efefef;
+    padding: 90px 0;
+
+    &__title {
+        margin-bottom: 150px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: 360px;
+        width: 100%;
+        padding-left: 65px;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: "";
+            background-image: url(../images/content/advantages-item-1.png);
+            left: 0;
+            width: 100px;
+            height: 100px;
+            top: -65px;
+        }
+
+        &-work {
+
+            &::before {
+                background-image: url(../images/content/advantages-item-2.png);
+                width: 101px;
+            }
+        }
+
+        &-result {
+
+            &::before {
+                background-image: url(../images/content/advantages-item-3.png);
+            }
+        }
+
+        &-title {
+            font-size: 20px;
+            line-height: 26px;
+            font-style: italic;
+            font-weight: 700;
+            margin-bottom: 20px;
+            z-index: 1;
+            position: relative;
+        }
+
+        &-text {
+            font-size: 14px;
+            line-height: 20px;
+            color: #666666;
+            font-family: 'Gilroy', sans-serif;
+            font-weight: 300;
+        }
+    }
+}
+
+// end advantages
 
 @import 'media';
