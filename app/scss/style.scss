@@ -625,6 +625,42 @@
 
 // end experience
 
+// start guarantee
+
+.guarantee {
+    padding: 100px 0;
+
+    &__inner {
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: "";
+            background-image: url(../images/content/guarantee.png);
+            width: 426px;
+            height: 302px;
+            right: -75px;
+            bottom: -100px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 60px;
+    }
+
+    &__form {
+        max-width: 810px;
+        width: 100%;
+        margin: 0 auto;
+
+        button {
+            margin-left: 30px;
+        }
+    }
+}
+
+// end guarantee
+
 @import 'media';
 
   
