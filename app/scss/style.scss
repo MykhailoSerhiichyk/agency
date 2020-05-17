@@ -497,6 +497,7 @@
     &__item {
         flex-basis: 25%;
         margin-bottom: 60px;
+        text-align: center;
     }
 }
 
@@ -530,6 +531,7 @@
     font-size: 28px;
     text-align: center;
     margin-bottom: 40px;
+    line-height: 32px;
 }
 
 .time__slider-text {
@@ -544,7 +546,8 @@
 }
 
 .time__slider-btn {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     font-size: 14px;
     padding: 21px;
     border-radius: 30px;
@@ -616,10 +619,6 @@
 
     img {
         width: 100%;
-    }
-
-    &:hover {
-        transform: scale(1.5);
     }
 }
 

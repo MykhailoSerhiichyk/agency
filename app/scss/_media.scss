@@ -1,0 +1,317 @@
+@media (max-width: 1200px) {
+
+    .cost__inner::before,
+    .time__title::before {
+        display: none;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .procedure__inner {
+        display: block;
+    }
+
+    .procedure__item-garant {
+        margin-bottom: 160px;
+    }
+
+    .procedure__item {
+        margin-left: 190px;
+        margin-right: auto;
+    }
+
+    .guarantee__inner::after {
+        display: none;
+    }
+}
+
+@media (max-width: 920px) {
+
+    .instruction__inner::before {
+        display: none;
+    }
+
+    .instruction__inner {
+        display: block;
+    }
+
+    .instruction__content {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .instruction__title {
+        text-align: center;
+        margin-top: 20px;
+        line-height: 44px;
+    }
+
+    .instruction__text {
+        margin: 0 auto 30px;
+    }
+
+    .instruction__form.default__form {
+        margin: 0 auto;
+    }
+
+    .advantages__inner {
+        display: block;
+    }
+
+    .advantages__item {
+        margin: 0 auto 100px;
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .advantages__title.title {
+        margin-bottom: 120px;
+    }
+
+    .time__slider-inner .slick-arrow {
+        display: none !important;
+    }
+}
+
+@media (max-width: 820px) {
+
+    .header__inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .default__btn {
+            flex-basis: 90%;
+        }
+    }
+
+    .header__map {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header__phone {
+        margin-right: 0;
+    }
+
+    .footer__form.default__form {
+
+        input[type="tel"] {
+            width: 100%;
+        }
+
+        .default__form-subtitle {
+            max-width: 100%;
+        }
+
+        button {
+            width: 100%;
+        }
+    }
+
+    .footer__form-inner {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .instruction__title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .procedure__item {
+        margin-left: 100px;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 646px) {
+
+    .default__form form button {
+        margin-left: 0;
+    }
+
+    .experience__title.title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .experience__subtitle {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .experience {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .header__phone {
+        flex-basis: 50%;
+        text-align: center;
+    }
+
+    .header__inner {
+
+        .default__btn {
+            flex-basis: auto;
+        }
+    }
+
+    .procedure__item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cost__title.title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .footer__copy-inner {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__copy-text {
+        margin: 0 auto 20px;
+    }
+
+    .footer__copy-logo {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .time__item {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .main__slider-title {
+        font-size: 22px;
+    }
+
+    .main__slider-box::after {
+        display: none;
+    }
+
+    .main__top-title {
+        font-size: 40px;
+    }
+
+    .main__top-subtitle {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .instruction__text {
+        margin-left: 50px;
+    }
+
+    .default__form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .instruction__inner {
+        padding-top: 50px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .procedure__subtitle {
+        font-size: 26px;
+    }
+
+    .procedure {
+        padding-top: 50px;
+    }
+
+    .time__subtitle {
+        font-size: 24px;
+    }
+
+    .time {
+        padding-top: 50px;
+    }
+
+    .guarantee {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 410px) {
+
+    .header__phone {
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .header__inner {
+
+        .default__btn {
+            flex-basis: 90%;
+            margin-top: 20px;
+        }
+    }
+
+    .main__slider-inner .slick-arrow {
+        display: none;
+    }
+
+    .default__form {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .instruction__text {
+        margin-left: auto;
+        text-align: center;
+
+        &::before,
+        &::after {
+            display: none;
+        }
+    }
+
+    .instruction__title {
+        margin-bottom: 30px;
+    }
+
+    .default__form-title {
+        margin-bottom: 25px;
+    }
+
+    .footer__form.default__form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .header__logo {
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .default__form form label {
+        padding-left: 15px;
+    }
+}
